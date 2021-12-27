@@ -1,7 +1,8 @@
 class ShowInfo {
     id: number;
     image: {
-        medium: string
+        medium: string,
+        original: string,
     };
     name: string;
     officialSite: string;
@@ -9,7 +10,7 @@ class ShowInfo {
     type: string;
     url: string;
 
-    constructor(id: number,image: {medium: string,},name: string,officialSite: string,summary: string,type: string,url: string){
+    constructor(id: number,image: {medium: string,original: string},name: string,officialSite: string,summary: string,type: string,url: string){
         this.id = id,
         this.image = image,
         this.name = name,

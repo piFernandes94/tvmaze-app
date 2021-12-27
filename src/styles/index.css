@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{box-sizing: border-box;font-family: 'Roboto', sans-serif;color:#333;}
+li{list-style: none;}
+ul{padding: 0;}
+a{text-decoration: none;}
+p{margin:0;}
+h1,span,div{text-align: left;}

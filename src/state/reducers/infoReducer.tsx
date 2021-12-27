@@ -3,7 +3,7 @@ import ShowInfo from "../../models/ShowInfo";
 
 const initialValue : ShowInfo = {
     id: 0,
-    image: { medium: "" },
+    image: { medium: "", original: "" },
     name: "",
     officialSite: "",
     summary: "",
